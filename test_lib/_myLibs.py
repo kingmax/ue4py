@@ -9,3 +9,8 @@ def add(a, b):
 
 if __name__ == '__main__':
     print('run myLibs.py')
+
+    try:
+        print(ab)
+    except Exception as ex:
+        print(ex.message)
