@@ -27,7 +27,7 @@ def main():
     import os
     _dir = 'D:/download/'
     _textures = ['T_Snow_N.psd', 'Cliffs0464_7_seamless_S.jpg']
-    
+
     tasks = []
     for tex in _textures:
         task = build_import_task(os.path.join(_dir, tex), '/Game/Textures')
