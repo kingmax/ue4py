@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff09 scene
 //Name: cube.ma
-//Last modified: Fri, Feb 01, 2019 05:18:21 PM
+//Last modified: Fri, Feb 01, 2019 05:27:24 PM
 //Codeset: 936
 requires maya "2018ff09";
 requires "mtoa" "3.1.1.1";
@@ -13,7 +13,7 @@ fileInfo "osv" "Microsoft Windows 8 Business Edition, 64-bit  (Build 9200)\n";
 createNode transform -s -n "persp";
 	rename -uid "F9550463-44DB-06D9-385D-13B47ED313B1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.3408957930780079 1.7556718448085058 2.3408957930780074 ;
+	setAttr ".t" -type "double3" 2.8137463103941145 1.7664560508333693 1.8599571212432533 ;
 	setAttr ".r" -type "double3" -27.938352729602379 44.999999999999972 -5.172681101354183e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "98358591-4474-C068-DE17-B08AC82DC1B0";

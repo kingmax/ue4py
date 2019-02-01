@@ -54,13 +54,13 @@ def build_skeletal_mesh_import_options():
     options.set_editor_property('import_materials', True)
     options.set_editor_property('import_as_skeletal', True)  # Skeletal Mesh
     # unreal.FbxMeshImportData  https://api.unrealengine.com/INT/PythonAPI/class/FbxMeshImportData.html
-    options.static_mesh_import_data.set_editor_property('import_translation', unreal.Vector(0.0, 0.0, 0.0))
-    options.static_mesh_import_data.set_editor_property('import_rotation', unreal.Rotator(0.0, 0.0, 0.0))
-    options.static_mesh_import_data.set_editor_property('import_uniform_scale', 1.0)
+    options.skeletal_mesh_import_data.set_editor_property('import_translation', unreal.Vector(0.0, 0.0, 0.0))
+    options.skeletal_mesh_import_data.set_editor_property('import_rotation', unreal.Rotator(0.0, 0.0, 0.0))
+    options.skeletal_mesh_import_data.set_editor_property('import_uniform_scale', 1.0)
     # unreal.FbxSkeletalMeshImportData
     # https://api.unrealengine.com/INT/PythonAPI/class/FbxSkeletalMeshImportData.html
-    options.static_mesh_import_data.set_editor_property('import_morph_targets', True)
-    options.static_mesh_import_data.set_editor_property('update_skeleton_reference_pose', False)
+    options.skeletal_mesh_import_data.set_editor_property('import_morph_targets', True)
+    options.skeletal_mesh_import_data.set_editor_property('update_skeleton_reference_pose', False)
     return options
 
 
@@ -80,7 +80,7 @@ def test_import_textures():
 def test_import_fbx():
     # import as StaticMesh Or SkeletalMesh
     static_mesh_fbx = r'D:/git/ue4py/myCube.fbx'
-    skeletal_mesh_fbx = r'D:/git/ue4py/myCube.fbx'
+    skeletal_mesh_fbx = r'D:/git/ue4py/bigFish.fbx'
     static_mesh_task = build_import_task(static_mesh_fbx, '/Game/StaticMeshes', build_static_mesh_import_options())
     skeletal_mesh_task = build_import_task(skeletal_mesh_fbx, '/Game/SkeletalMeshes', build_skeletal_mesh_import_options())
     do_import_tasks([static_mesh_task, skeletal_mesh_task])
