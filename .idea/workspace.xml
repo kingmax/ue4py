@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="">
+    <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="* import SkeletalMesh, + bigFish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssetLibs.py" beforeDir="false" afterPath="$PROJECT_DIR$/AssetLibs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AssetLibs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="71" column="63" lean-forward="true" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+            <state relative-caret-position="668">
+              <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -98,7 +97,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="2552" />
-    <option name="width" value="1297" />
+    <option name="width" value="1327" />
     <option name="height" value="1448" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -204,13 +203,27 @@
       <option name="presentableId" value="Default" />
       <updated>1548392125221</updated>
     </task>
+    <task id="LOCAL-00001" summary="+ import FBX (StaticMesh or SkeletalMesh)">
+      <created>1549012939823</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549012939823</updated>
+    </task>
+    <task id="LOCAL-00002" summary="* import SkeletalMesh, + bigFish">
+      <created>1549014190131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549014190131</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2554" y="0" width="1037" height="1158" extended-state="0" />
-    <editor active="true" />
+    <frame x="2554" y="0" width="1061" height="1158" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.161" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15722656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -220,15 +233,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3294347" />
       <window_info anchor="bottom" id="MayaLog" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="11" visible="true" weight="0.19103314" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.19103314" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+ import FBX (StaticMesh or SkeletalMesh)" />
+    <MESSAGE value="* import SkeletalMesh, + bigFish" />
+    <option name="LAST_COMMIT_MESSAGE" value="* import SkeletalMesh, + bigFish" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/someFunctions.py">
@@ -281,8 +299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AssetLibs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="71" column="63" lean-forward="true" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+        <state relative-caret-position="668">
+          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
         </state>
       </provider>
     </entry>
