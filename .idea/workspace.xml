@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="">
+    <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="+ getActors(isSelected=False, class, tag)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldLevelLib/worldFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldLevelLib/worldFunctions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/worldLevelLib/worldFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+            <state relative-caret-position="375">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549878057394</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+ getActors(isSelected=False, class, tag)">
+      <created>1550654616503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550654616503</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -271,7 +277,8 @@
     <MESSAGE value="+ import FBX (StaticMesh or SkeletalMesh)" />
     <MESSAGE value="* import SkeletalMesh, + bigFish" />
     <MESSAGE value="refresh" />
-    <option name="LAST_COMMIT_MESSAGE" value="refresh" />
+    <MESSAGE value="+ getActors(isSelected=False, class, tag)" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ getActors(isSelected=False, class, tag)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/someFunctions.py">
@@ -331,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worldLevelLib/worldFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+        <state relative-caret-position="375">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
