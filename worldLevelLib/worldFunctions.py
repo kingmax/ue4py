@@ -4,8 +4,8 @@ import unreal
 # https://api.unrealengine.com/INT/PythonAPI/class/EditorAssetLibrary.html
 # unreal.EditorLevelLibrary
 # https://api.unrealengine.com/INT/PythonAPI/class/EditorLevelLibrary.html
-def spawActors():
-    _class = unreal.EditorAssetLibrary.load_blueprint_class('Game/BpActor')
+def spawnActors():
+    _class = unreal.EditorAssetLibrary.load_blueprint_class('/Game/BpActor')
     location = unreal.Vector(0, 0, 0)
     rotation = unreal.Rotator(0, 0, 0)
     unreal.EditorLevelLibrary.spawn_actor_from_class(_class, location, rotation)
