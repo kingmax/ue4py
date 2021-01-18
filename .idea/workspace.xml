@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/old/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ue420/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ue420/hello.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssetLibs.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/AssetLibs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/old/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/old/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assetFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/assetFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigFish.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/old/bigFish.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigFish.ma" beforeDir="false" afterPath="$PROJECT_DIR$/old/bigFish.ma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube.ma" beforeDir="false" afterPath="$PROJECT_DIR$/old/cube.ma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editorFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/editorFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_step" beforeDir="false" afterPath="$PROJECT_DIR$/old/first_step" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myCube.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/old/myCube.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressBar.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/progressBar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/someFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/someFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startupScript.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/startupScript.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryCast.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/tryCast.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/undo_history.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/undo_history.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +93,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Program Files/Epic Games/UE_4.20/Engine/Plugins/Experimental/PythonScriptPlugin/Content/Python" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -179,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1548392125221</updated>
       <workItem from="1610954076780" duration="2753000" />
-      <workItem from="1610960473662" duration="520000" />
+      <workItem from="1610960473662" duration="861000" />
     </task>
     <task id="LOCAL-00001" summary="+ import FBX (StaticMesh or SkeletalMesh)">
       <created>1549012939823</created>
@@ -216,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610960630536</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="* ignore .idea folder">
+      <created>1610961024266</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610961024266</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -252,7 +244,8 @@
     <MESSAGE value="refresh" />
     <MESSAGE value="+ getActors(isSelected=False, class, tag)" />
     <MESSAGE value="* unreal.py from UE4.20.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="* unreal.py from UE4.20.3" />
+    <MESSAGE value="* ignore .idea folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="* ignore .idea folder" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/someFunctions.py">
