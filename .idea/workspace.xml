@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="+ getActors(isSelected=False, class, tag)">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editorFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ue4py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ue4py.iml" afterDir="false" />
+    <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/old/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetLibs.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/AssetLibs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/old/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/old/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assetFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/assetFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigFish.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/old/bigFish.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigFish.ma" beforeDir="false" afterPath="$PROJECT_DIR$/old/bigFish.ma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cube.ma" beforeDir="false" afterPath="$PROJECT_DIR$/old/cube.ma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editorFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/editorFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_step" beforeDir="false" afterPath="$PROJECT_DIR$/old/first_step" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myCube.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/old/myCube.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progressBar.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/progressBar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/someFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/someFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startupScript.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/startupScript.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tryCast.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/tryCast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/undo_history.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/undo_history.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +110,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Program Files/Epic Games/UE_4.20/Engine/Plugins/Experimental/PythonScriptPlugin/Content/Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\ue4py\old" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python._myLibs">
     <configuration name="_myLibs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ue4py" />
@@ -134,7 +151,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/startupScript.py" />
+      <option name="SCRIPT_NAME" value="D:\git\ue4py\old\startupScript.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,6 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1548392125221</updated>
       <workItem from="1610954076780" duration="2753000" />
+      <workItem from="1610960473662" duration="520000" />
     </task>
     <task id="LOCAL-00001" summary="+ import FBX (StaticMesh or SkeletalMesh)">
       <created>1549012939823</created>
@@ -191,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550654616503</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="* unreal.py from UE4.20.3">
+      <created>1610960630536</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610960630536</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -226,7 +251,8 @@
     <MESSAGE value="* import SkeletalMesh, + bigFish" />
     <MESSAGE value="refresh" />
     <MESSAGE value="+ getActors(isSelected=False, class, tag)" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ getActors(isSelected=False, class, tag)" />
+    <MESSAGE value="* unreal.py from UE4.20.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="* unreal.py from UE4.20.3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/someFunctions.py">
