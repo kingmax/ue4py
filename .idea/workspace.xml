@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="" />
+    <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ue420/batchRenameAssets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +55,7 @@
   </component>
   <component name="ProjectId" id="1nET6XNhYxTyzFefXwvczFxLJu5" />
   <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -86,6 +90,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Program Files/Epic Games/UE_4.20/Engine/Plugins/Experimental/PythonScriptPlugin/Content/Python" />
@@ -93,6 +98,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\ue4py\ue422" />
       <recent name="D:\git\ue4py\old" />
     </key>
   </component>
@@ -163,6 +169,7 @@
       <workItem from="1610960473662" duration="1620000" />
       <workItem from="1611112779017" duration="2107000" />
       <workItem from="1611189468467" duration="27000" />
+      <workItem from="1612143888320" duration="17868000" />
     </task>
     <task id="LOCAL-00001" summary="+ import FBX (StaticMesh or SkeletalMesh)">
       <created>1549012939823</created>
@@ -213,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610961386666</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="*">
+      <created>1612144158036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612144158036</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -251,7 +265,8 @@
     <MESSAGE value="* unreal.py from UE4.20.3" />
     <MESSAGE value="* ignore .idea folder" />
     <MESSAGE value="+ ue420/hello" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ ue420/hello" />
+    <MESSAGE value="*" />
+    <option name="LAST_COMMIT_MESSAGE" value="*" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/someFunctions.py">

@@ -1,0 +1,7 @@
+{
+"//ref:": "https://www.tomlooman.com/ue4-naming-convention/",
+  "Material": "M_",
+  "MaterialInstance": "MI_",
+  "Texture2D": "T_",
+  "ParticleSystem": "P_"
+}
