@@ -9,6 +9,17 @@ print(_cd_)
 editor_util = u.EditorUtilityLibrary()
 system_lib = u.SystemLibrary()
 
+# """
+# {
+# "//ref:": "https://www.tomlooman.com/ue4-naming-convention/",
+#   "Material": "M_",
+#   "MaterialInstance": "MI_",
+#   "Texture2D": "T_",
+#   "ParticleSystem": "P_"
+# }
+# """
+
+
 prefix_mapping = {}
 _prefix_mapping_file = os.path.join(_cd_, 'prefix_mapping.json')
 print(_prefix_mapping_file)
