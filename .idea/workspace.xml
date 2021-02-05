@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ue422/4cleanUp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ue422/5duplicator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ue422/6removeUnused_ch8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ue422/7gui_ch9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ue422/basic.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ue4py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ue4py.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ue422/9del_null_SM_ch11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ue422/8worldOutliner_ch10.py" beforeDir="false" afterPath="$PROJECT_DIR$/ue422/8worldOutliner_ch10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +171,7 @@
       <workItem from="1611189468467" duration="27000" />
       <workItem from="1612143888320" duration="33932000" />
       <workItem from="1612405036886" duration="8055000" />
-      <workItem from="1612490848647" duration="5749000" />
+      <workItem from="1612490848647" duration="9035000" />
     </task>
     <task id="LOCAL-00001" summary="+ import FBX (StaticMesh or SkeletalMesh)">
       <created>1549012939823</created>
@@ -240,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612242755572</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="+ [ue422] UE4 AUTOMATION 1~7 chapter">
+      <created>1612503322899</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612503322899</updated>
+    </task>
+    <task id="LOCAL-00011" summary="+ [ue422] UE4 AUTOMATION chapter 8 world_outliner">
+      <created>1612505259512</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612505259513</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -280,7 +290,9 @@
     <MESSAGE value="+ ue420/hello" />
     <MESSAGE value="*" />
     <MESSAGE value="+ [ue422] UE4 AUTOMATION" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ [ue422] UE4 AUTOMATION" />
+    <MESSAGE value="+ [ue422] UE4 AUTOMATION 1~7 chapter" />
+    <MESSAGE value="+ [ue422] UE4 AUTOMATION chapter 8 world_outliner" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ [ue422] UE4 AUTOMATION chapter 8 world_outliner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -15,7 +15,7 @@ lights = editor_filter_lib.by_class(actors, u.Light)
 
 moved = 0
 
-mapping =  {
+mapping = {
     'SM': static_meshes,
     'RefCap': reflection_caps,
     'BP': blueprints,
@@ -31,4 +31,3 @@ for folder_name in mapping:
         moved += 1
 
 u.log('Moved {} actors into respective folders'.format(moved))
-
