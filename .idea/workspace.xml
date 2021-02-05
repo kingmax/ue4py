@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97e58a1b-9538-48b2-bb15-c7ac29c1ceea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ue420/batchRenameAssets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ue422/4cleanUp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ue422/5duplicator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ue422/6removeUnused_ch8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ue422/7gui_ch9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ue422/basic.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ue4py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ue4py.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +173,9 @@
       <workItem from="1610960473662" duration="1620000" />
       <workItem from="1611112779017" duration="2107000" />
       <workItem from="1611189468467" duration="27000" />
-      <workItem from="1612143888320" duration="17868000" />
+      <workItem from="1612143888320" duration="33932000" />
+      <workItem from="1612405036886" duration="8055000" />
+      <workItem from="1612490848647" duration="5749000" />
     </task>
     <task id="LOCAL-00001" summary="+ import FBX (StaticMesh or SkeletalMesh)">
       <created>1549012939823</created>
@@ -227,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612144158036</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="+ [ue422] UE4 AUTOMATION">
+      <created>1612242755572</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612242755572</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -266,7 +279,18 @@
     <MESSAGE value="* ignore .idea folder" />
     <MESSAGE value="+ ue420/hello" />
     <MESSAGE value="*" />
-    <option name="LAST_COMMIT_MESSAGE" value="*" />
+    <MESSAGE value="+ [ue422] UE4 AUTOMATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ [ue422] UE4 AUTOMATION" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../END2/TA/NB2/NBQA/Maya2020/modules/medic/plugins/Tester/isPasted.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/someFunctions.py">
