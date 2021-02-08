@@ -1,4 +1,5 @@
 # coding:utf-8
+# 或许可以开发一个贴图的属性传递工具（或者所有UAsset的）
 
 import unreal as u
 
@@ -13,9 +14,23 @@ include_subfolders = True
 set_textures = 0
 
 assets = editor_asset_lib.list_assets(root, recursive=include_subfolders)
-color_patterns = ["_ORM", "_Metallic", "_Roughness", "_Mask"]
+color_patterns = ["_ORM", "_OcclusionRoughnessMetallic", "_Metallic", "_Roughness", "_Mask"]
 num_assets = len(assets)
 print('get {} assets'.format(num_assets))
+
+for asset in assets:
+    for pattern in color_patterns:
+        if string_lib.contains(asset, pattern):
+            asset_obj = editor_asset_lib.load_asset(asset)
+            asset_obj.set_editor_property('sRGB', False)
+            asset_obj.set_editor_property('CompressionSettings', u.TextureCompressionSettings.TC_MASKS)
+
+            u.log('Setting TC_Masks and turning off sRGB for asset {}'.format(asset))
+            set_textures += 1
+            break
+
+u.log('Linear color for matching textures set for {} assets'.format(set_textures))
+
 
 # u.Texture2D object
 textures = []
